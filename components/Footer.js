@@ -1,7 +1,12 @@
-  function Footer() {
-    return (
-        <footer className="p-6 text-left bg-green-500 h-17">&copy;2021</footer>
-    )
+  
+function Footer(props) {
+  return (
+      <footer className="h-16 p-4 text-left bg-green-500">
+
+          <p className="pt-1.1 ml-5.75"> {props.stores} Locations World Wide </p>
+
+      </footer>
+  )
 }
 
 export default Footer;
